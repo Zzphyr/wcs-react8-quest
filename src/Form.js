@@ -31,6 +31,9 @@ class Form extends React.Component {
    render() {
       return (
          <div>
+            {/* to make this easier, added h1 and h2 */}
+            <h1>title: {this.state.title}</h1>
+            <h2>globalTile: {this.state.globalTitle}</h2>
             <label htmlFor='title'>
                <input 
                   id='title'
